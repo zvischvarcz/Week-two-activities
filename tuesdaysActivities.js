@@ -13,7 +13,7 @@ if (age > 17 && country == "UK") {
 }
 
 //////////// Activity 2
-console.log("*****************************************")
+console.log("***************Activity 2**************************")
 ////////////////////////////////////////////////////////////
 
 
@@ -32,7 +32,7 @@ switch(topping) {
 }
 
 //////////// Activity 3
-console.log("*****************************************")
+console.log("******************Activity 3***********************")
 ////////////////////////////////////////////////////////////
 
 
@@ -57,7 +57,7 @@ if (num1 % 3 == 0 || num1 % 5 == 0) {
 
 
 //////////// Activity 4
-console.log("*****************************************")
+console.log("*********************Activity 4********************")
 ////////////////////////////////////////////////////////////
 
 
@@ -74,7 +74,7 @@ if (num2 % 3 == 0 && num2 % 5 == 0) {
 }
 
 //////////// Activity 5
-console.log("*****************************************")
+console.log("********************Activity 5*********************")
 ////////////////////////////////////////////////////////////
 
 
@@ -91,7 +91,7 @@ if (num3 == num3Reversed) {
 
 
 //////////// Activity 6
-console.log("*****************************************")
+console.log("*******************Activity 6**********************")
 ////////////////////////////////////////////////////////////
 
 
@@ -109,7 +109,7 @@ if (time <= 700 || time > 1700) {
 }
 
 //////////// Activity 7
-console.log("*****************************************")
+console.log("********************Activity 7*********************")
 ////////////////////////////////////////////////////////////
 
 
@@ -124,7 +124,7 @@ console.log(lastVowel)
 
 
 //////////// Activity 8
-console.log("*****************************************")
+console.log("********************Activity 8*********************")
 ////////////////////////////////////////////////////////////
 
 
@@ -139,7 +139,7 @@ if (word[0] == word.slice(-1)) {
 
 
 //////////// Activity 9
-console.log("*****************************************")
+console.log("*****************Activity 9************************")
 ////////////////////////////////////////////////////////////
 
 
@@ -156,10 +156,16 @@ if (num6 % 2 == 0) {
 }
 
 
+
 ////////////// Array Activities ////////////////////
+console.log("*****************Array Activities************************")
 
 
 //////////// Activity 1
+console.log("********************Activity 1*********************")
+////////////////////////////////////////////////////////////
+
+
 
 favSongs = ["I aint worried - One Republic", "Bones - Imagine Dragons", "Centuries - Fall Out Boy"]
 console.log(favSongs)
@@ -167,3 +173,139 @@ favSongs.push("More - Usher", "I'm Good - David Guetta")
 console.log(favSongs)
 favSongs.pop()
 console.log(favSongs)
+
+
+
+//////////// Activity 2
+console.log("*******************Activity 2**********************")
+////////////////////////////////////////////////////////////
+
+
+// The .map method creates a new array from another with condditions applied. I this case the .map creates a new array with the numbers from arrayOne doubled.
+
+let arrayOne = [5, 10, 15, 20];
+let mapOne = arrayOne.map(x => x * 2);
+console.log(mapOne)
+
+
+
+////////////// Loop Activities ////////////////////
+console.log("*****************Loop Activities************************")
+
+
+//////////// Activity 1
+console.log("*****************Activity 1************************")
+////////////////////////////////////////////////////////////
+
+
+
+let favFilms = [
+    "John wick",
+    "Hobbs & Shaw",
+    "Anna",
+    "Spy",
+    "The Expendables"
+]
+
+favFilms.push("Operation Fortune", "The Gentlemen")
+
+for (let i = 0; i < favFilms.length; i++) {
+    console.log(favFilms[i])
+}
+
+
+//////////// Activity 2
+console.log("******************Activity 2***********************")
+////////////////////////////////////////////////////////////
+
+
+for (let i = 0; i < 6; i++) {
+    console.log(Math.floor(Math.random()*50))
+}
+
+
+//////////// Activity 3
+console.log("*********************Activity 3********************")
+////////////////////////////////////////////////////////////
+
+
+
+for (let i = 9; i > 0; i--) {
+    console.log(i)
+}
+
+
+
+//////////// Activity 4
+console.log("*******************Activity 4**********************")
+////////////////////////////////////////////////////////////
+
+
+
+let films = [
+    "John wick",
+    "Hobbs & Shaw",
+    "Ghostbusters",
+    "Spy"
+]
+
+for (let i = 0; i < films.length; i++) {
+    console.log(films[i])
+}
+
+if (films[2] == "Ghostbusters") {
+    console.log("Yay its Ghostbusters")
+} else {
+    console.log("Boo! We want Ghostbusters")
+}
+
+
+
+//////////// Activity 5
+console.log("******************Activity 5***********************")
+////////////////////////////////////////////////////////////
+
+
+for (let i = 0; i < 6; i++) {
+    let numDiv = (Math.ceil(Math.random()*30))
+    if (numDiv % 7 == 0) {
+        console.log(`This number - ${numDiv} - is divisible by 7.`)
+    }
+}
+
+
+
+//////////// Activity 6
+console.log("*********************Activity 6********************")
+////////////////////////////////////////////////////////////
+
+
+let bobsFollowers = [
+    "John",
+    "Jack",
+    "Mary",
+    "Zvi"
+]
+
+let hannahsFollowers = [
+    "Zvi",
+    "Mary",
+    "Mia",
+    "Leah"
+]
+
+matchingFollowers = []
+
+for (let i = 0; i < bobsFollowers.length; i++) {
+    for (let j = 0; j < hannahsFollowers.length; j++) {
+        if (bobsFollowers[i] == hannahsFollowers[j]) {
+            matchingFollowers.push(bobsFollowers[i])
+        }
+ }
+}
+console.log(matchingFollowers)
+
+
+//////////// Activity 6
+console.log("*********************Activity 7********************")
+////////////////////////////////////////////////////////////
