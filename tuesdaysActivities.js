@@ -306,6 +306,6 @@ for (let i = 0; i < bobsFollowers.length; i++) {
 console.log(matchingFollowers)
 
 
-//////////// Activity 6
+//////////// Activity 7
 console.log("*********************Activity 7********************")
 ////////////////////////////////////////////////////////////
