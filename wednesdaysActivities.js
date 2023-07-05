@@ -1,5 +1,11 @@
-////////////// Loop Activities ////////////////////
-console.log("*****************Loop Activities************************")
+////////////// Function Activities ////////////////////
+console.log("*****************Function Activities************************")
+
+const favColour = (colour) => {
+    console.log(`My favourite colour is ${colour}.`)
+}
+
+favColour ("Purple");
 
 
 //////////// Activity 1
