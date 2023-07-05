@@ -309,3 +309,34 @@ console.log(matchingFollowers)
 //////////// Activity 7
 console.log("*********************Activity 7********************")
 ////////////////////////////////////////////////////////////
+
+///do....while loop ////
+let i = 0;
+do {
+    i ++;
+    console.log(i);
+}
+
+while (i < 10)
+
+
+// pro/con (depending on uses case): will execute the first itteration even if the condition is false
+// con:A bit more complicated and harder to read in my opinion.
+
+
+///while loop ////
+
+let j = 0;
+while (j < 10) {
+    j ++;
+    console.log(j);
+}
+ 
+
+///for loop ////
+
+for (let k = 0; k < 10; k++) {
+    console.log(k)
+} 
+
+// pro: very simple and easy to read.
