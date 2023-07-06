@@ -92,7 +92,7 @@ const coffeeShop = {
         let drinkPrice2 = 0;
         let drinkItem3 = "";
         let drinkPrice3 = 0;
-        for (i = 0; i < this.drinksMenu.length; i ++) {
+        for (let i = 0; i < this.drinksMenu.length; i ++) {
             if (drink1 === this.drinksMenu[i]) {
                 drinkItem1 = this.drinksMenu[i];
                 drinkPrice1 = this.drinksMenu[i + 1];  
@@ -126,7 +126,7 @@ const coffeeShop = {
         let foodPrice2 = 0;
         let foodItem3 = "";
         let foodPrice3 = 0;
-        for (i = 0; i < this.foodMenu.length; i ++) {
+        for (let i = 0; i < this.foodMenu.length; i ++) {
             if (food1 === this.foodMenu[i]) {
                 foodItem1 = this.foodMenu[i];
                 foodPrice1 = this.foodMenu[i + 1];  
