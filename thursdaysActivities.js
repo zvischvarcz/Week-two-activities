@@ -20,7 +20,7 @@ console.log(person.age);
 console.log(person["name"]);
 
 
-let thingINeed = "age"
+let thingINeed = "age";
 console.log(person[thingINeed]);
 
 person.favsongs =  [
@@ -60,7 +60,7 @@ console.log(pet.drink());
 
 
 //////////// Activity 3
-console.log("********************Activity 3*********************")
+console.log("********************Activity 3*********************");
 ////////////////////////////////////////////////////////////
 
 
@@ -108,18 +108,18 @@ const coffeeShop = {
         };
         let drinkTotal = drinkPrice1 + drinkPrice2 + drinkPrice3;
         if (drinkItem1 == "") {
-            console.log("Please input/ammend your order to something on the menu.")
+            console.log("Please input/ammend your order to something on the menu.");
         } else if (drinkItem2 == "") {
-            console.log(`You have ordered a ${drinkItem1} for ${drinkPrice1}. your total is £${drinkTotal}`)
+            console.log(`You have ordered a ${drinkItem1} for ${drinkPrice1}. your total is £${drinkTotal}`);
         }else if (drinkItem3 == "") {
-            console.log(`You have ordered a ${drinkItem1} for ${drinkPrice1} and a ${drinkItem2} for ${drinkPrice2}. your total is £${drinkTotal}`)
+            console.log(`You have ordered a ${drinkItem1} for ${drinkPrice1} and a ${drinkItem2} for ${drinkPrice2}. your total is £${drinkTotal}`);
         } else {
-            console.log(`You have ordered a ${drinkItem1} for ${drinkPrice1}, a ${drinkItem2} for ${drinkPrice2} and a ${drinkItem3} for ${drinkPrice3}. your total is £${drinkTotal}`)
+            console.log(`You have ordered a ${drinkItem1} for ${drinkPrice1}, a ${drinkItem2} for ${drinkPrice2} and a ${drinkItem3} for ${drinkPrice3}. your total is £${drinkTotal}`);
         }
     },
     foodOrdered(food1, food2, food3) {
-        food2 = food2 || ""
-        food3 = food3 || ""
+        food2 = food2 || "";
+        food3 = food3 || "";
         let foodItem1 = "";
         let foodPrice1 = 0;
         let foodItem2 = "";
@@ -142,13 +142,13 @@ const coffeeShop = {
         };
         let foodTotal = foodPrice1 + foodPrice2 + foodPrice3;
         if (foodItem1 == "") {
-            console.log("Please input/ammend your order to something on the menu.")
+            console.log("Please input/ammend your order to something on the menu.");
         } else if (foodItem2 == "") {
-            console.log(`You have ordered a ${foodItem1} for ${foodPrice1}. your total is £${foodTotal}`)
+            console.log(`You have ordered a ${foodItem1} for ${foodPrice1}. your total is £${foodTotal}`);
         }else if (foodItem3 == "") {
-            console.log(`You have ordered a ${foodItem1} for ${foodPrice1} and a ${foodItem2} for ${foodPrice2}. your total is £${foodTotal}`)
+            console.log(`You have ordered a ${foodItem1} for ${foodPrice1} and a ${foodItem2} for ${foodPrice2}. your total is £${foodTotal}`);
         } else {
-            console.log(`You have ordered a ${foodItem1} for ${foodPrice1}, a ${foodItem2} for ${foodPrice2} and a ${foodItem3} for ${foodPrice3}. your total is £${foodTotal}`)
+            console.log(`You have ordered a ${foodItem1} for ${foodPrice1}, a ${foodItem2} for ${foodPrice2} and a ${foodItem3} for ${foodPrice3}. your total is £${foodTotal}`);
         }
     }
 };

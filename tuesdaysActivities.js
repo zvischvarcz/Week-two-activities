@@ -3,78 +3,78 @@
 
 //////////// Activity 1
 
-let age = 15
-let country = "UK"
+let age = 19;
+let country = "UK";
 
 if (age > 17 && country == "UK") {
-    console.log("Yes I can serve you.")
+    console.log("Yes I can serve you.");
 } else {
-    console.log("You aren't old enough.")
+    console.log("You aren't old enough.");
 }
 
 //////////// Activity 2
-console.log("***************Activity 2**************************")
+console.log("***************Activity 2**************************");
 ////////////////////////////////////////////////////////////
 
 
-let topping = "pineapple"
+let topping = "pineapple";
 
 switch(topping) {
     case "olives":
     case "cheese":
-        console.log("These are important ingredients for my pizza.")
+        console.log("These are important ingredients for my pizza.");
         break;
     case "mushrooms":
-        console.log(`I don't mind having ${topping} on my pizza.`)
+        console.log(`I don't mind having ${topping} on my pizza.`);
         break;
     default:
-        console.log(`${topping} should not be on a pizza.`)
+        console.log(`${topping} should not be on a pizza.`);
 }
 
 //////////// Activity 3
-console.log("******************Activity 3***********************")
+console.log("******************Activity 3***********************");
 ////////////////////////////////////////////////////////////
 
 
-let password = "qwerty123"
+let password = "qwerty123";
 
 if (password.length < 8) {
-    console.log("Password is too short!")
+    console.log("Password is too short!");
 } else {
-    console.log (`${password}`)
+    console.log (`${password}`);
 }
 
 
 
-let num1 = 11
+let num1 = 11;
 
 if (num1 % 3 == 0 || num1 % 5 == 0) {
-    console.log("This number is divisible by 3 or 5")
+    console.log("This number is divisible by 3 or 5");
 } else {
-    console.log("This number is NOT divisible by 3 or 5")
+    console.log("This number is NOT divisible by 3 or 5");
 }
 
 
 
 //////////// Activity 4
-console.log("*********************Activity 4********************")
+console.log("*********************Activity 4********************");
 ////////////////////////////////////////////////////////////
 
 
-let num2 = 15
+let num2 = 15;
 
 if (num2 % 3 == 0 && num2 % 5 == 0) {
-    console.log("fizz buzz")
+    console.log("fizz buzz");
 } else if (num2 % 3 == 0){
-    console.log("fizz")
+    console.log("fizz");
 } else if (num2 % 5 == 0){
-    console.log("buzz")
+    console.log("buzz");
 } else {
-    console.log(`${num2}`)
+    console.log(`${num2}`);
 }
 
 //////////// Activity 5
-console.log("********************Activity 5*********************")
+console.log("********************Activity 5*********************");
 ////////////////////////////////////////////////////////////
 
 
@@ -84,100 +84,100 @@ let num3Reversed = num3.split("").reverse().join("");
 
 
 if (num3 == num3Reversed) {
-    console.log("This number is a pallindrome")
+    console.log("This number is a pallindrome");
 } else {
-    console.log("This number is NOT a pallindrome")
+    console.log("This number is NOT a pallindrome");
 }
 
 
 //////////// Activity 6
-console.log("*******************Activity 6**********************")
+console.log("*******************Activity 6**********************");
 ////////////////////////////////////////////////////////////
 
 
 
-let time = 830
-let placeOfWork = "Blackpool"
-let townOfHome = "Manchester"
+let time = 830;
+let placeOfWork = "Blackpool";
+let townOfHome = "Manchester";
 
 if (time <= 700 || time > 1700) {
-    console.log(`I'm at home in ${townOfHome}.`)
+    console.log(`I'm at home in ${townOfHome}.`);
 } else if ( time > 700 && time <= 800) {
-    console.log(`I'm commuting to ${placeOfWork}.`)
+    console.log(`I'm commuting to ${placeOfWork}.`);
 }else {
-    console.log(`I'm at work in ${placeOfWork}.`)
+    console.log(`I'm at work in ${placeOfWork}.`);
 }
 
 //////////// Activity 7
-console.log("********************Activity 7*********************")
+console.log("********************Activity 7*********************");
 ////////////////////////////////////////////////////////////
 
 
 
 
-let longString = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi"
-let vowels = ["a", "e", "i", "o", "u"]
+let longString = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
+let vowels = ["a", "e", "i", "o", "u"];
 
-const lastVowel =  Math.max.apply(null, vowels.map(letter => longString.lastIndexOf(letter)))
+const lastVowel =  Math.max.apply(null, vowels.map(letter => longString.lastIndexOf(letter)));
 
-console.log(lastVowel)
+console.log(lastVowel);
 
 
 //////////// Activity 8
-console.log("********************Activity 8*********************")
+console.log("********************Activity 8*********************");
 ////////////////////////////////////////////////////////////
 
 
 
-let word ="hello"
+let word ="hello";
 
 if (word[0] == word.slice(-1)) {
-    console.log("true")
+    console.log("true");
 } else {
-    console.log("false")
+    console.log("false");
 }
 
 
 //////////// Activity 9
-console.log("*****************Activity 9************************")
+console.log("*****************Activity 9************************");
 ////////////////////////////////////////////////////////////
 
 
 
 
-let num4 = 15
-let num5 = 2
-let num6 = num4 + num5
+let num4 = 15;
+let num5 = 2;
+let num6 = num4 + num5;
 
 if (num6 % 2 == 0) {
-    console.log(num4 + num5)
+    console.log(num6);
 } else {
-    console.log(num4 * num5)
+    console.log(num4 * num5);
 }
 
 
 
 ////////////// Array Activities ////////////////////
-console.log("*****************Array Activities************************")
+console.log("*****************Array Activities************************");
 
 
 //////////// Activity 1
-console.log("********************Activity 1*********************")
+console.log("********************Activity 1*********************");
 ////////////////////////////////////////////////////////////
 
 
 
-favSongs = ["I aint worried - One Republic", "Bones - Imagine Dragons", "Centuries - Fall Out Boy"]
-console.log(favSongs)
-favSongs.push("More - Usher", "I'm Good - David Guetta")
-console.log(favSongs)
-favSongs.pop()
-console.log(favSongs)
+favSongs = ["I aint worried - One Republic", "Bones - Imagine Dragons", "Centuries - Fall Out Boy"];
+console.log(favSongs);
+favSongs.push("More - Usher", "I'm Good - David Guetta");
+console.log(favSongs);
+favSongs.pop();
+console.log(favSongs);
 
 
 
 //////////// Activity 2
-console.log("*******************Activity 2**********************")
+console.log("*******************Activity 2**********************");
 ////////////////////////////////////////////////////////////
 
 
@@ -185,16 +185,16 @@ console.log("*******************Activity 2**********************")
 
 let arrayOne = [5, 10, 15, 20];
 let mapOne = arrayOne.map(x => x * 2);
-console.log(mapOne)
+console.log(mapOne);
 
 
 
 ////////////// Loop Activities ////////////////////
-console.log("*****************Loop Activities************************")
+console.log("*****************Loop Activities************************");
 
 
 //////////// Activity 1
-console.log("*****************Activity 1************************")
+console.log("*****************Activity 1************************");
 ////////////////////////////////////////////////////////////
 
 
@@ -205,39 +205,39 @@ let favFilms = [
     "Anna",
     "Spy",
     "The Expendables"
-]
+];
 
-favFilms.push("Operation Fortune", "The Gentlemen")
+favFilms.push("Operation Fortune", "The Gentlemen");
 
 for (let i = 0; i < favFilms.length; i++) {
-    console.log(favFilms[i])
+    console.log(favFilms[i]);
 }
 
 
 //////////// Activity 2
-console.log("******************Activity 2***********************")
+console.log("******************Activity 2***********************");
 ////////////////////////////////////////////////////////////
 
 
 for (let i = 0; i < 6; i++) {
-    console.log(Math.floor(Math.random()*50))
+    console.log(Math.floor(Math.random()*50));
 }
 
 
 //////////// Activity 3
-console.log("*********************Activity 3********************")
+console.log("*********************Activity 3********************");
 ////////////////////////////////////////////////////////////
 
 
 
 for (let i = 9; i > 0; i--) {
-    console.log(i)
+    console.log(i);
 }
 
 
 
 //////////// Activity 4
-console.log("*******************Activity 4**********************")
+console.log("*******************Activity 4**********************");
 ////////////////////////////////////////////////////////////
 
 
@@ -247,36 +247,38 @@ let films = [
     "Hobbs & Shaw",
     "Ghostbusters",
     "Spy"
-]
+];
 
 for (let i = 0; i < films.length; i++) {
-    console.log(films[i])
+    console.log(films[i]);
 }
 
 if (films[2] == "Ghostbusters") {
-    console.log("Yay its Ghostbusters")
+    console.log("Yay its Ghostbusters");
 } else {
-    console.log("Boo! We want Ghostbusters")
+    console.log("Boo! We want Ghostbusters");
 }
 
 
 
 //////////// Activity 5
-console.log("******************Activity 5***********************")
+console.log("******************Activity 5***********************");
 ////////////////////////////////////////////////////////////
 
 
 for (let i = 0; i < 6; i++) {
-    let numDiv = (Math.ceil(Math.random()*30))
+    let numDiv = (Math.ceil(Math.random()*30));
     if (numDiv % 7 == 0) {
-        console.log(`This number - ${numDiv} - is divisible by 7.`)
+        console.log(`This number - ${numDiv} - is divisible by 7.`);
+    } else {
+        console.log(`This number - ${numDiv} - is NOT divisible by 7.`)
     }
 }
 
 
 
 //////////// Activity 6
-console.log("*********************Activity 6********************")
+console.log("*********************Activity 6********************");
 ////////////////////////////////////////////////////////////
 
 
@@ -285,33 +287,33 @@ let bobsFollowers = [
     "Jack",
     "Mary",
     "Zvi"
-]
+];
 
 let hannahsFollowers = [
     "Zvi",
     "Mary",
     "Mia",
     "Leah"
-]
+];
 
-matchingFollowers = []
+matchingFollowers = [];
 
 for (let i = 0; i < bobsFollowers.length; i++) {
     for (let j = 0; j < hannahsFollowers.length; j++) {
         if (bobsFollowers[i] == hannahsFollowers[j]) {
-            matchingFollowers.push(bobsFollowers[i])
+            matchingFollowers.push(bobsFollowers[i]);
         }
  }
 }
-console.log(matchingFollowers)
+console.log(matchingFollowers);
 
 
 //////////// Activity 7
-console.log("*********************Activity 7********************")
+console.log("*********************Activity 7********************");
 ////////////////////////////////////////////////////////////
 
 ///do....while loop ////
-let i = 0;
+let i = 0;;
 do {
     i ++;
     console.log(i);
@@ -336,7 +338,7 @@ while (j < 10) {
 ///for loop ////
 
 for (let k = 0; k < 10; k++) {
-    console.log(k)
+    console.log(k);
 } 
 
 // pro: very simple and easy to read.

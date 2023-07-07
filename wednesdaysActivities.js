@@ -1,15 +1,15 @@
 ////////////// Function Activities ////////////////////
-console.log("*****************Function Activities************************")
+console.log("*****************Function Activities************************");
 
 const favColour = (colour) => {
-    console.log(`My favourite colour is ${colour}.`)
+    console.log(`My favourite colour is ${colour}.`);
 }
 
 favColour ("Purple");
 
 
 //////////// Activity 1
-console.log("*****************Activity 1************************")
+console.log("*****************Activity 1************************");
 ////////////////////////////////////////////////////////////
 
 const factorial = (n) => {
@@ -20,11 +20,11 @@ const factorial = (n) => {
     }
 }
 
-console.log(factorial(33))
+console.log(factorial(33));
 
 
 //////////// Activity 2
-console.log("*****************Activity 2************************")
+console.log("*****************Activity 2************************");
 ////////////////////////////////////////////////////////////
 
 
@@ -37,14 +37,14 @@ const takeOrder = (topping1, topping2) => {
     console.log(`Pizza with ${topping1} and ${topping2}.`);
 }
 
-takeOrder("pineapple", "olives")
-takeOrder("mushrooms", "onions")
-takeOrder("peperoni", "extra cheese")
+takeOrder("pineapple", "olives");
+takeOrder("mushrooms", "onions");
+takeOrder("peperoni", "extra cheese");
 
 
 
 //////////// Activity 3
-console.log("*****************Activity 3************************")
+console.log("*****************Activity 3************************");
 ////////////////////////////////////////////////////////////
 
 let accountNumber = 987654;
@@ -82,14 +82,14 @@ const balanceCheck = (withdrawalAmount) => {
 
 const cashMachine = (accountInput, pinInput, withdrawalAmount) => {
     if (pinCheck(pinInput) && balanceCheck(withdrawalAmount) && accountCheck(accountInput)) {
-        balance -= withdrawalAmount
-        console.log(`You have withdrawn ${withdrawalAmount} successfully, your new balance is ${balance}.`) 
+        balance -= withdrawalAmount;
+        console.log(`You have withdrawn ${withdrawalAmount} successfully, your new balance is ${balance}.`) ;
     }
 }
 
-cashMachine(897622, 1234, 200)
-cashMachine(987654, 1234, 200)
-cashMachine(987654, 1234, 200)
-cashMachine(987654, 1235, 200)
-cashMachine(987654, 1234, 200)
-cashMachine(987654, 1234, 80)
+cashMachine(897622, 1234, 200);
+cashMachine(987654, 1234, 200);
+cashMachine(987654, 1234, 200);
+cashMachine(987654, 1235, 200);
+cashMachine(987654, 1234, 200);
+cashMachine(987654, 1234, 80);
